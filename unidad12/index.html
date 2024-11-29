@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREADERSarg</title>
+    
+    <!-- CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+    
+    <!-- CSS propio-->
+    <link href="evaluacion12.css" rel="stylesheet" type="text/css">
+
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <!-- JS unidad 7-->
+    <script src="unidad7.js"></script>
+   
+  
+
+</head>
+<body>
+    <header id="cabecera">
+        <nav id="botonera">
+            <ul class="botones">
+                <li><a href="#cabecera">Inicio</a></li>
+                <li><a href="#contenido">Trading</a></li>
+                <li><a href="#contenido1">Saber más</a></li>
+                <li><a href="#contenido2">Nosotros</a></li>
+                <li><a href="#contenido3">Ver</a></li>
+            </ul>
+        </nav>
+        <div id="marca">
+            <h1 class="righteous-regular">Hagamos <span>TRADING</span> </h1>
+        </div>
+    </header>
+    <section id="contenido">
+        <div class="nuevocont" >
+            <h4 class="righteous-regular">¿Cómo mejorar tu trading?</h4>
+        </div>
+        <div class="nuevocont"> 
+            <script>
+                document.write('<p><span>Broker: '+broker+'</span></p>')
+                document.write('<p><span>Nivel de conocimientos: '+trading+'</span></p>')
+            </script>
+            <p>Con nosotros obtendrás un conocimiento profundo sobre los mercados financieros.</p>
+        </div>
+        <div class="nuevocont">
+            <script>
+                document.write('<p><span>Dedicación: '+horas+'</span></p>')
+            </script>
+            <p>Necesitas por lo menos 120 minutos diarios además tienes que ser constante y tener una meta que te gustaría alcanzar haciendo trading (real y alcanzable).</p>
+
+        </div>
+        <div class="nuevocont">
+            <script>
+                document.write('<p><span>Registro: '+registro+'</span></p>')
+            </script>
+            <p>Te enseñaremos a utilizar las ordenes de stop loss para controlar las pérdidas y a controlar tus apuestas desde Excel. </p>
+
+        </div>
+        <div class="nuevocont">
+            <h4 class="righteous-regular">Tenemos un BONO para vos!</h4>
+        </div>
+        <div class="nuevocont">
+            <p>Invirtiendo 10USD o más te regalamos un bono de bienvenida del 15%!!! </p>
+            <script>
+                document.write('<p><span>Monto a invertir: '+monto+'USD</span></p>')
+                document.write('<p><span>Monto a invertir más el bono de invitación: '+total+'USD</span></p>')
+            </script>
+          
+        </div>
+    </section>
+    <section id="contenido1">
+        <div id="cuadrado">
+             <h4 class="righteous-regular">Nuestros principios son el marco de nuestras decisiones.</h4>
+        </div>
+        <div class="nuevo">
+            <nav class="titulos">
+                <h3><a href="#contenido1" onclick="mostrarCont()">SER FIABLES</a></h3>
+            </nav>
+            <p id="fiables" style="display:none;"> Liquidamos todos los contratos de manera justa, procesamos todos los depósitos y retiros con prontitud y brindamos una experiencia comercial de alta calidad a todos nuestros clientes.</p>
+        </div>
+        <div class="nuevo">
+            <nav class="titulos">
+                <h3><a href="#contenido1" onclick="mostrarCont2()">SER JUSTOS</a></h3>
+            </nav>
+            <p id="justos" style="display: none;">Tratamos a todos los clientes de manera equitativa, manejamos las quejas con integridad y ofrecemos precios competitivos sin costos ocultos ni barreras artificiales para los retiros de los clientes.</p>
+        </div>
+        <div class="nuevo">
+            <nav class="titulos">
+                <h3><a href="#contenido1" onclick="mostrarCont3()">SER TRANSPARENTES</a></h3>
+            </nav>
+            <p id="transpa" style="display: none;">Hablamos claramente para evitar ambigüedades, divulgamos los términos de todos los contratos y somos claros sobre los riesgos del trading y cómo ganamos dinero.</p>
+        </div>
+    </section>
+    <section id="contenido2">
+        <div class="relac">
+            <h4>El curso de trading más completo que existe</h4>
+        </div>
+        <div class="relac">
+            <h3>¿En qué modalidad te gustaria estudiar con nosotros?</h3>
+            <form action="">
+            <select class="form-select">
+                <option value="parttime">Part-time</option>
+                <option value="fulltime">Full-time</option>
+            </select>
+            <h3>En caso de elegir 'part-time' cuentanos brevemente los motivos.</h3>
+            <textarea placeholder="comentarios"  rows="1" class="form-control"></textarea>
+            <input type="submit" placeholder="Enviar comentario" class="btn btn-dark">
+        </form>
+        </div>
+        <div id="relac2"></div>
+        <div class="relac3">
+            <h3 class="righteous-regular">Registro</h3>
+            <form action="">
+             <input type="text" placeholder="Nombre y Apellido/s" class="form-control" required
+              minlength="3" maxlength="15">
+             <input type="number" placeholder="Edad" class="form-control" required min="18" max="90">
+             <input type="email" placeholder="email" class="form-control" required> 
+             <input type="submit" placeholder="Registrarme" class="btn btn-dark">
+
+            </form>
+            <p>Gracias por registrarte con nosotros, dentro de las próximas 24 horas te enviaremos un mail.</p>
+        </div>
+        <div class="relac3 sacarcaja" >
+            <h4 class="righteous-regular">Ofrecemos CFD y otros derivados sobre forex, acciones e índices, criptomonedas, materias primas y derivados a millones de usuarios registrados en todo el mundo.</h4>
+            
+        </div>
+        <div class="relac3">
+            <nav id="btn_comprar">
+                <ul>
+                    <li><a href="#contenido2" onclick="Comprar()">Comprar ahora</a></li>
+                </ul>   
+            </nav>
+            <p><span>No te pierdas esta oportunidad increible!</span></p>
+            <p>Animate y mejora tus habilidades y perspectivas profesionales con conocimientos y conexiones valiosos que pueden abrir nuevas puertas de oportunidades.</p>
+        </div>
+    </section>
+    <section id="contenido3"> 
+        <div class="container-fluid">
+         <div class="row g-2" id="modulo1"> 
+             <div class="col-xl-4 col-md-5 p-2 " id="modcaja1">
+                <nav id="btn_comprar">
+                    <ul>
+                        <li><a href="#contenido3" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver más</a></li>
+                    </ul>   
+                </nav>
+                 <!--modal BS-->
+                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header colormodal">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">¿Cuánto puedes ganar?</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Vive de trading a tiempo completo. Sin arriesgar tu propio capital. Según nuestros datos, un trader promedio a tiempo completo tiene una tasa de ganancia mensual del 4.3%.
+                        </div>
+                        <div class="modal-footer">
+                         <p>No te pierdas esta oportunidad.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 <!--fin modal-->
+             </div>
+             <div class="col-xl-8 col-md-7 p-2" id="modcaja2">
+                 <!-- JS BS acordion-->
+                 <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed item1 colorlt" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                         Lo que aprenderás
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body colorcont">Tendrás un conocimiento profundo sobre los mercados financieros, aprenderás Análisis Técnico Profesional. Sabrás analizar y determinar el momento oportuno de inversión en cualquier activo, conocerás las principales técnicas de gestión monetaria y cómo aplicarlas a los sistemas de inversión.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed item2 colorlt" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Requisitos
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body colorcont">
+                            <ul>
+                                <li>No necesitas conocimientos previos para realizar el curso. Todo el contenido está pensado para que te resulte sencillo y fácil de comprender y siempre que lo desees podrás preguntar y te resolveremos tus dudas.</li>
+                                <li>Ordenador y conexión a internet.</li>
+                                <li>Tienes que ser constante y tener una meta que te gustaría alcanzar haciendo trading (real y alcanzable).</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed item3 colorlt" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Descripción
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body colorcont">
+                            Ya son más de 30.000 alumnos que han confiado en nuestros cursos y metodología. Este curso te servirá para: índices, acciones, materias primas, Forex.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 <!-- fin acordion-->
+             </div>
+         </div> 
+         <div class="row g-2" id="modulo2">
+             <div class="col-xl-4 col-md-3 p-2 " id="modcaja3">
+                <img src="imagenes/carru.jpg" alt="imagen trader" class="img-fluid">
+             </div>
+             <div class="col-xl-4 col-md-6 p-2 " id="modcaja4">
+               <!-- css de BS-->
+                <div class="card" >
+                    <img src="imagenes/azul.jpg" class="card-img-top" alt="imgcard">
+                    <div class="card-body colorcd">
+                      <p class="card-text colorlt">Ponemos al cliente en primer lugar y nos esforzamos por crear productos que ofrezcan la mejor experiencia al cliente.</p>
+                    </div>
+                  </div>
+               <!-- css de BS -->
+             </div>
+             <div class="col-xl-4 col-md-3 p-2 " id="modcaja5">
+                 <img src="imagenes/ultima.jpg" alt="imgultima" class="img-fluid">
+             </div>
+            
+         </div>
+        </div>
+    </section>
+    
+    <footer id="pie">
+        <div id="nota">
+            <h2 class="righteous-regular">¿Qué estás esperando? contactanos!</h2>
+            
+        </div>
+        <div id="nota2">
+            <h5>TEL: +54 3571 622148 --- MAIL: ginaspp89@gmail.com --- INSTRAGRAM: ginapereyrap</h5>
+        </div>
+        <nav id="contacto" class="ocultarcaja">
+            <ul>
+                <li><a href="#pie">ho</a></li>
+            </ul>
+        </nav>
+    </footer>   
+       <!-- JS unidad 8-->
+       <script src="unidad8.js"></script>
+       
+       <!-- JS unidad 9 bootstrap-->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+       crossorigin="anonymous"></script>
+</body>
+</html>
